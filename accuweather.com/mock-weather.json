@@ -1,0 +1,48 @@
+{
+  "city-search": [
+    {
+      "Key": "location-key-1",
+      "Type": "type-1",
+      "EnglishName": "Montigny-sur-Loing",
+      "LocalizedName": "Montigny-sur-Loing"
+    },
+    {
+      "Key": "location-key-2",
+      "Type": "type-2",
+      "EnglishName": "Cachan",
+      "LocalizedName": "Cachan"
+    }
+  ],
+  "current-conditions-1": [
+    {
+      "json_server": {
+        "location_key": "location-key-1"
+      },
+      "Temperature": {
+        "Metric": {
+          "Value": "17",
+          "Unit": "degrees"
+        }
+      },
+      "WeatherText": "The weather is alright because the sun is shining",
+      "WeatherIcon": 1,
+      "IsDayTime": false
+    }
+  ],
+  "current-conditions-2": [
+    {
+      "json_server": {
+        "location_key": "location-key-2"
+      },
+      "Temperature": {
+        "Metric": {
+          "Value": "22",
+          "Unit": "degrees"
+        }
+      },
+      "WeatherText": "The weather is not so good because it is raining",
+      "WeatherIcon": 18,
+      "IsDayTime": true
+    }
+  ]
+}
